@@ -10,17 +10,8 @@ export const Kugile = localFont({
   ],
 })
 
-export const Cascadia = localFont({
-  src: [
-    {
-      path: '../public/fonts/cascadia/CascadiaMono-Regular.woff',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/cascadia/CascadiaMono-Bold.woff',
-      weight: '700',
-      style: 'normal',
-    },
-  ],
+export const Inter = localFont({
+  src: '../public/fonts/inter/Inter-VariableFont_opsz,wght.ttf',
+  display: 'swap',
+  variable: '--font-inter',
 })

@@ -1,4 +1,4 @@
-
+import { Inter } from "./fontloader";
 import "./globals.css";
 
 export const metadata = {
