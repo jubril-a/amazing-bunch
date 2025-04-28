@@ -8,7 +8,7 @@ const Navbar = () => {
             <nav className="flex gap-4 text-sm">
                 <a href="" className="hover:border-b-1 hover:border-amber-600">HOME</a>
                 <a href="" className="hover:border-b-1 hover:border-amber-600">SERVICES</a>
-                {/* <a href=""></a> */}
+                <a href="" className="hover:border-b-1 hover:border-amber-600">TRAINING</a>
                 <a href="" className="hover:border-b-1 hover:border-amber-600">CONTACT</a>
             </nav>
         </div>
