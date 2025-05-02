@@ -10,7 +10,7 @@ const services = [
   {
     bgImage: "#171717",
     heading: "Nail & Spa Treatments",
-    body: "Manicure, Pedicure, Nail Art, Foot Spa, Waxing, Scrubs, Body Massage",
+    body: "Manicure, Pedicure, Nail Art, Foot Spa, Waxing, Scrubs & Body Massage",
   },
   {
     bgImage: "#f0eee4",
@@ -20,16 +20,16 @@ const services = [
   {
     bgImage: "#171717",
     heading: "Makeup & Beauty",
-    body: "Full glam, soft glam, bridal makeup, and beauty product sales",
+    body: "Full glam, soft glam, bridal makeup, and beauty products sales",
   },
 ]
 
 const Services = () => {
   return (
-    <section className="py-40">
+    <section className="py-25 lg:py-35">
         <h2 className={`${Kugile.className} text-center text-5xl mb-3.5`}>Services</h2>
         <p className="max-w-3xl text-center m-auto text-balance mb-15">Explore a wide range of beauty and grooming services designed for both men and women. We combine expert technique with premium products to give you a luxurious experience, every single time.</p>
-        <div className="grid grid-cols-4 ">
+        <div className="grid min-[560px]:grid-cols-2 lg:grid-cols-4">
             {services.map((service) => <ServiceCard bg={service.bgImage} heading={service.heading} body={service.body} />)}
         </div>
     </section>
