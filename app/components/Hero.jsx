@@ -5,7 +5,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const Hero = () => {
   return (
-    <div className="sticky inset-0 bg-background h-svh grid justify-center items-center">
+    <div className="md:sticky inset-0 bg-background h-svh grid justify-center items-center">
         <div className="relative z-10">
             <h1 className={`${Kugile.className} text-foreground text-center mb-3.5`} style={{fontSize: "clamp(3rem, 2.4545rem + 2.7273vw, 4.5rem)"}}>Amazing Brunch<br />Unisex Salon</h1>
             <div className="flex justify-center gap-4 max-[480px]:flex-col max-[480px]:">

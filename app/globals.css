@@ -10,3 +10,14 @@
   --color-foreground: var(--foreground);
   --color-blue: #fff;
 }
+
+@keyframes infinite-scroll {
+  to {
+    transform: translate(-100%);
+  }
+}
+
+
+.animate-infinite-scroll {
+  animation: 50s infinite linear infinite-scroll;
+}
