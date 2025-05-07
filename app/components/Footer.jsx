@@ -4,9 +4,9 @@ import { Kugile } from "../fontloader"
 const Footer = () => {
   return (
     <footer>
-        <div className="flex justify-between p-20 max-w-7xl m-auto">
+        <div className="flex flex-col min-[760px]:flex-row gap-8 justify-between py-20 px-8 max-w-7xl m-auto">
           <div>
-            <p className={"text-xl mb-2 text-amber-800 " + Kugile.className}>Working Hours:</p>
+            <p className={"text-xl mb-2 text-amber-800 pt-2 " + Kugile.className}>Working Hours:</p>
             <p className="text-lg mb-2 text-gray-900"><span className={Kugile.className}>Weekdays: </span>time-in to time-out</p>
             <p className="text-lg mb-2 text-gray-900"><span className={Kugile.className}>Weekends: </span>time-in to time-out</p>
           </div>
