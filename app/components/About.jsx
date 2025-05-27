@@ -12,7 +12,7 @@ const About = () => {
           <p>Need our service? <a href="" className="text-amber-600 border-b-3 border-b-amber-500 hover:border-b-amber-600 ">Just give us a call</a></p>
         </div>
       </div>
-      <div className='bg-amber-500 max-[840px]:aspect-video'></div>
+      <div className="bg-amber-500 max-[840px]:aspect-video bg-[url(/salon_portrait_3.JPG)] bg-center bg-cover"></div>
     </div>
   )
 }

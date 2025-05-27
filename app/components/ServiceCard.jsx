@@ -1,9 +1,9 @@
 import { Kugile } from "../fontloader"
 
-const ServiceCard = ({bg, heading, body}) => {
+const ServiceCard = ({bg, heading, body, bgPos}) => {
   return (
     <div className="border-b-1 border-[#00000021]">
-        <div className="group relative aspect-[4/5] p-2" style={{background: bg}}>
+        <div className="group relative aspect-[4/5] p-2 bg-cover" style={{backgroundImage: `url(${bg})`, backgroundPosition: `${bgPos ? bgPos : 'bottom'}`}}>
           <div className="absolute inset-2 top-auto p-4 bg-white pointer-fine:hidden pointer-fine:group-hover:block">
             <p>{body}</p>
           </div>

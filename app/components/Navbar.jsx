@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 w-full px-4 py-4 z-50 bg-white border-b-1 border-[#00000021]">
         <div className="flex justify-between items-center max-w-7xl m-auto flex-wrap">
-            <span>Logo</span>
+            <Image src="/logo2.png" alt="logo" width={40} height={40} />
             <button className="sm:hidden" onClick={() => setVisible(!isVisible)}><Image src={isVisible ? "/icons/cancel.png" : "/icons/menu.png"} alt="" width={28} height={28} /></button>
             <motion.nav
               initial={isVisible ? {y: "-100%"} : null}
