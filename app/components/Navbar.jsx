@@ -18,10 +18,10 @@ const Navbar = () => {
               animate={isVisible ? {y: 0} : null}
               transition={transition}
               className={`${isVisible ? "grid bg-white py-6 px-3 w-full" : "max-sm:hidden"} flex sm:gap-4 text-sm`}>
-                <a href="" className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-amber-600">HOME</a>
-                <a href="" className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-amber-600">SERVICES</a>
-                <a href="" className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-amber-600">GALLERY</a>
-                <a href="" className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-amber-600">CONTACT</a>
+                <a href="/" className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-[#E60376]">HOME</a>
+                <a href="/services" className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-[#E60376]">SERVICES</a>
+                <a href="/gallery" className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-[#E60376]">GALLERY</a>
+                <a href="/contact" className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-[#E60376]">CONTACT</a>
             </motion.nav>
         </div>
     </div>
