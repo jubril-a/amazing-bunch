@@ -9,6 +9,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-blue: #fff;
+  --color-primary: #E90175;
+  --color-secondary: #717173;
 }
 
 @keyframes infinite-scroll {
