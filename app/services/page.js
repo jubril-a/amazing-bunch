@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar"
 import Hero from "./components/Hero"
 import ServiceSection from "./components/ServiceSection"
 
@@ -32,10 +33,11 @@ const services = [
 const page = () => {
     return (
       <>
+        <Navbar page="services" />
         <Hero />
         <div>
           {services.map(service => 
-            <ServiceSection serviceDetails={service} />
+            <ServiceSection key={service.id} serviceDetails={service} />
           )}
         </div>
       </>

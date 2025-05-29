@@ -14,7 +14,7 @@ const ServiceSection = ({serviceDetails}) => {
                     </ul>
                 </div>
             </div>
-            <div className="bg-secondary max-md:order-[-1] max-md:aspect-[4/5] bg-cover bg-center bg-top" style={{backgroundImage: `url(${serviceDetails.imgUrl})`}}>
+            <div className="bg-secondary max-md:order-[-1] max-md:aspect-[4/5] bg-cover bg-top" style={{backgroundImage: `url(${serviceDetails.imgUrl})`}}>
             </div>
         </div>
     </section>
