@@ -1,5 +1,3 @@
-
-
 const HalfBox = ({children, className}) => {
   return (
     <div className={"flex justify-center items-center min-h-[480px] " + className}>
