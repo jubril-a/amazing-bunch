@@ -7,10 +7,12 @@ const page = () => {
       <>
         <Navbar page="gallery" />
         <Header />
-        <GallerySection section="Interior" count={25} />
-        <GallerySection section="Hair Care & Styling" count={15} />
-        <GallerySection section="Nails" count={7} />
-        <GallerySection section="Makeup" count={2} />
+        <div>
+          <GallerySection section="Interior" count={25} />
+          <GallerySection section="Hair Care & Styling" count={15} />
+          <GallerySection section="Nails" count={7} />
+          <GallerySection section="Makeup" count={2} />
+        </div>
       </>
     )
   }
