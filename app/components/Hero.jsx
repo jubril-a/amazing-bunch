@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className={`${Kugile.className} text-foreground text-center mb-3.5`} style={{fontSize: "clamp(3rem, 2.4545rem + 2.7273vw, 4.5rem)"}}>Amazing Bunch<br />Unisex Salon</h1>
             <div className="flex justify-center gap-4 max-[480px]:flex-col max-[480px]:">
               <a href="tel:+2348025304967" className="bg-[#E50474] text-white hover:bg-[#9B005A] py-3 sm:py-4 px-5 sm:px-6 rounded-full font-medium text-center inline-block">Call for Enquiries</a>
-              <a href="#" className="bg-[#ffffff] hover:text-white hover:bg-[#171717] py-3 sm:py-4 px-5 sm:px-6 rounded-full font-medium text-center inline-block">View our Services</a>
+              <a href="/services" className="bg-[#ffffff] hover:text-white hover:bg-[#171717] py-3 sm:py-4 px-5 sm:px-6 rounded-full font-medium text-center inline-block">View our Services</a>
             </div>
         </div>
         <div className="absolute inset-0 flex items-end justify-center invert opacity-15">
