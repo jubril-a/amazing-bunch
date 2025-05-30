@@ -8,10 +8,10 @@ const page = () => {
         <Navbar page="gallery" />
         <Header />
         <div>
-          <GallerySection section="Interior" count={25} />
-          <GallerySection section="Hair Care & Styling" count={15} />
-          <GallerySection section="Nails" count={7} />
-          <GallerySection section="Makeup" count={2} />
+          <GallerySection folder="interior" section="Interior" count={14} />
+          <GallerySection folder="hair" section="Hair Care & Styling" count={13} />
+          <GallerySection folder="nails" section="Nails" count={7} />
+          <GallerySection folder="makeup" section="Makeup" count={2} />
         </div>
       </>
     )

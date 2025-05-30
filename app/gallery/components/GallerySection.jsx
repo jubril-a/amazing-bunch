@@ -4,7 +4,7 @@ import { Kugile } from "@/app/fontloader"
 import { useRef } from "react"
 import Image from "next/image"
 
-const GallerySection = ({section, count}) => {
+const GallerySection = ({section, count, folder}) => {
     let gallery = useRef()
 
     let scrollGallery = (direction) => {
@@ -34,7 +34,9 @@ const GallerySection = ({section, count}) => {
             </div>
             <div ref={gallery} className="max-w-[1200px] mx-auto overflow-x-scroll scroll-smooth no-scrollbar flex flex-nowrap gap-4">
                 {Array.from({length: count}, (_, index) => (
-                    <div className="bg-rose-400 min-w-[288px] aspect-[3/4]">{index + 1}</div>
+                    <div className="bg-rose-400 min-w-[288px] aspect-[3/4]">
+                        <Image src={`/${folder}/${folder[0]}${index+1}.png`} alt="" width={288} height={384} />
+                    </div>
                 ))}
             </div>
         </div>
