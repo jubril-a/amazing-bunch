@@ -7,7 +7,7 @@ import { motion } from "motion/react"
 const NavLink = ({children, page, link, to}) => {
 
   return (
-    <a href={to} className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-[#E60376]" style={page == link ? {"border-bottom": "1px solid #717173"} : {}}>{children}</a>
+    <a href={to} className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-[#E60376]" style={page == link ? {borderBottom: "1px solid #717173"} : {}}>{children}</a>
   )
 }
 

@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div>
             <div className="flex gap-12 mb-2">
-              <a href="#" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80"><Image src="/icons/instagram.png" width={32} height={32} alt=""/></a>
+              <a href="https://www.instagram.com/amazing_bunch_salon/" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80"><Image src="/icons/instagram.png" width={32} height={32} alt=""/></a>
               <a href="#" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80"><Image src="/icons/facebook.png" width={32} height={32} alt=""/></a>
               <a href="#" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80"><Image src="/icons/tiktok.png" width={32} height={32} alt=""/></a>
             </div>
