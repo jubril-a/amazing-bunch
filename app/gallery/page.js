@@ -11,7 +11,7 @@ const page = () => {
           <GallerySection folder="interior" section="Interior" count={17} />
           <GallerySection folder="hair" section="Hair Care and Styling" count={17} />
           <GallerySection folder="nails" section="Nails" count={24} />
-          <GallerySection folder="makeup" section="Makeup" count={2} />
+          <GallerySection folder="makeup" section="Makeup" count={1} />
           <GallerySection folder="spa" section="Spa" count={2} />
         </div>
       </>

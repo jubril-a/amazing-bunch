@@ -14,10 +14,10 @@ const Gallery = () => {
       <h2 className={"text-5xl text-center mb-15 " + Kugile.className}>Gallery</h2>
       <div className="overflow-hidden flex">
         <div className={"mr-2 h-100 flex gap-2 w-max" + (isInView ? " animate-infinite-scroll" : "")}>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(id => <GalleryCard imgUrl={`/gallery/g${id}.jpg`} />)}
+          {[1, 2, 3, 4, 5, 6, 8, 9, 10].map(id => <GalleryCard imgUrl={`/gallery/g${id}.jpg`} />)}
         </div>
         <div className={"mr-2 h-100 flex gap-2 w-max" + (isInView ? " animate-infinite-scroll" : "")}>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(id => <GalleryCard  imgUrl={`/gallery/g${id}.jpg`} />)}
+          {[1, 2, 3, 4, 5, 6, 8, 9, 10].map(id => <GalleryCard  imgUrl={`/gallery/g${id}.jpg`} />)}
         </div>
       </div>
     </section>
