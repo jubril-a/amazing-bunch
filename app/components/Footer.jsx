@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { Kugile } from "../fontloader"
 import Link from "next/link"
 
@@ -13,9 +12,15 @@ const Footer = () => {
           </div>
           <div>
             <div className="flex gap-12 mb-2">
-              <Link href="https://www.instagram.com/amazing_bunch_salon/" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80"><Image src="/icons/instagram.png" width={32} height={32} alt=""/></Link>
-              <Link href="#" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80"><Image src="/icons/facebook.png" width={32} height={32} alt=""/></Link>
-              <Link href="#" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80"><Image src="/icons/tiktok.png" width={32} height={32} alt=""/></Link>
+              <Link href="https://www.instagram.com/amazing_bunch_salon/" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80">
+                <img src="/icons/instagram.png" width={32} height={32} alt=""/>
+              </Link>
+              <Link href="#" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80">
+                <img src="/icons/facebook.png" width={32} height={32} alt=""/>
+              </Link>
+              <Link href="#" className="p-2 hover:bg-[#ffb3d9] rounded-full opacity-80">
+                <img src="/icons/tiktok.png" width={32} height={32} alt=""/>
+              </Link>
             </div>
             <p className="text-lg mb-2 text-gray-900"><span className={"text-[#9B005A] " + Kugile.className}>A: </span>JoyGood Mall, KM 27, Lekki-Epe Expressway</p>
             <p className="text-lg mb-2 text-gray-900"><span className={"text-[#9B005A] " + Kugile.className}>P: </span>(+234) 8025304967</p>

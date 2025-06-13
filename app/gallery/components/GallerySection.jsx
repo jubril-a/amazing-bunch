@@ -2,7 +2,6 @@
 
 import { Kugile } from "@/app/fontloader"
 import { useRef } from "react"
-import Image from "next/image"
 
 const GallerySection = ({section, count, folder}) => {
     let gallery = useRef()
@@ -26,16 +25,16 @@ const GallerySection = ({section, count, folder}) => {
         <div className="relative max-w-[1200px] px-4 min-[660px]:px-6 mx-auto"> 
             <div className="max-[660px]:hidden flex justify-between absolute top-1/2 -translate-y-1/2 left-0 right-0" style={count < 4 ? {display: "none"} : {}}>
                 <button onClick={() => scrollGallery("backward")} className="w-12 aspect-square rounded-full bg-gray-100 border border-gray-100 cursor-pointer shadow-2xl flex justify-center items-center">
-                    <Image src="/icons/next.png" width={24} height={24} alt="P" className="rotate-180" />
+                    <img src="/icons/next.png" width={24} height={24} alt="P" className="rotate-180" />
                 </button>
                 <button onClick={() => scrollGallery("forward")} className="w-12 aspect-square rounded-full bg-gray-100 border border-gray-100 cursor-pointer shadow-2xl flex justify-center items-center">
-                    <Image src="/icons/next.png" width={24} height={24} alt="N" />
+                    <img src="/icons/next.png" width={24} height={24} alt="N" />
                 </button>
             </div>
             <div ref={gallery} className="max-w-[1200px] mx-auto overflow-x-scroll scroll-smooth no-scrollbar flex flex-nowrap gap-4">
                 {Array.from({length: count}, (_, index) => (
                     <div className="bg-rose-400 min-w-[288px] aspect-[3/4]">
-                        <Image src={`/gallery/${folder}/${index+1}.png`} alt="" width={288} height={384} />
+                        <img src={`/gallery/${folder}/${index+1}.png`} alt="" width={288} height={384} />
                     </div>
                 ))}
             </div>

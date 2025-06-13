@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 const GalleryCard = ({ imgUrl }) => {
   return (
@@ -7,7 +6,7 @@ const GalleryCard = ({ imgUrl }) => {
         <Link className="hidden group-hover:grid justify-center items-center absolute inset-0" href="/gallery">
             <span className="bg-white py-1 px-2 rounded-full flex gap-1 text-sm items-center hover:bg-[#ffb3d9]">
             <span>Explore our Gallery</span>
-            <Image src="/icons/arrow.png" alt="" width={16} height={16} />
+            <img src="/icons/arrow.png" alt="" width={16} height={16} />
             </span>
         </Link>
     </div>
