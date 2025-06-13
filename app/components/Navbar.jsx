@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
 import { motion } from "motion/react"
@@ -7,7 +8,7 @@ import { motion } from "motion/react"
 const NavLink = ({children, page, link, to}) => {
 
   return (
-    <a href={to} className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-[#E60376]" style={page == link ? {borderBottom: "1px solid #717173"} : {}}>{children}</a>
+    <Link href={to} className="max-sm:py-4 max-sm:px-4 max-sm:border-b-1 max-sm:border-b-gray-300 hover:border-b-1 hover:border-[#E60376]" style={page == link ? {borderBottom: "1px solid #717173"} : {}}>{children}</Link>
   )
 }
 
