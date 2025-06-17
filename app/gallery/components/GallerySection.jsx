@@ -34,7 +34,7 @@ const GallerySection = ({section, count, folder}) => {
             <div ref={gallery} className="max-w-[1200px] mx-auto overflow-x-scroll scroll-smooth no-scrollbar flex flex-nowrap gap-4">
                 {Array.from({length: count}, (_, index) => (
                     <div className="bg-gray-300 min-w-[288px] aspect-[3/4]">
-                        <img src={`/gallery/${folder}/${index+1}.png`} alt="" width={288} height={384} />
+                        <img src={`/gallery/${folder}/${index+1}.webp`} alt="" width={288} height={384} />
                     </div>
                 ))}
             </div>

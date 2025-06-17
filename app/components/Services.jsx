@@ -3,22 +3,22 @@ import ServiceCard from "./ServiceCard"
 
 const services = [
   {
-    bgImage: "/hair3.jpg",
+    bgImage: "/gallery/hair/1.webp",
     heading: "Hair Care and Styling",
     body: "Braiding, Weave Installation, Dreadlocks, Revamps, Hair Treatments, Colouring, Retouching, Steaming & Barbing",
   },
   {
-    bgImage: "/nails.jpg",
+    bgImage: "/gallery/nails/3.webp",
     heading: "Nail and Spa Treatments",
     body: "Manicure, Pedicure, Nail Art, Foot Spa, Waxing, Scrubs & Body Massage",
   },
   {
-    bgImage: "/facials.jpg",
+    bgImage: "/gallery/spa/3.webp",
     heading: "Facials and Skin Care",
     body: "Deep cleansing, exfoliation, hydration treatments & glow facials for every skin type",
   },
   {
-    bgImage: "/gallery/makeup/1.png",
+    bgImage: "/gallery/makeup/1.webp",
     heading: "Makeup and Beauty",
     body: "Full glam, soft glam, bridal makeup, and beauty products sales",
     bgPos: "top"
