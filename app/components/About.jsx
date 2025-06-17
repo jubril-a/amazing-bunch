@@ -12,7 +12,7 @@ const About = () => {
           <p>Need our service? <a href="tel:+2348025304967" className="text-[#E60376] border-b-3 border-b-[#E60376] hover:border-b-gray-800 ">Just give us a call</a></p>
         </div>
       </div>
-      <div className="bg-amber-500 max-[840px]:aspect-video bg-[url(/salon_portrait_3.JPG)] bg-center bg-cover"></div>
+      <div className="bg-primary max-[840px]:aspect-video bg-[url(/salon_portrait_3.JPG)] bg-center bg-cover"></div>
     </div>
   )
 }
